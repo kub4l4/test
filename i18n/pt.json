@@ -1,0 +1,212 @@
+{
+  "FOOD": {
+    "SEARCH": {
+      "DEFAULT": {
+        "TITLE": "Pesquisar",
+        "NAME": "Nome ou ID",
+        "CATEGORY": "Categoria",
+        "COMPONENT": "Componente",
+        "OPERATOR": "Operadora",
+        "VALUE": "Valor",
+        "DO_SEARCH": "Pesquisar",
+        "DO_CLEAR": "Limpar"
+      },
+      "LANGUAL": {
+        "TITLE": "LanguaL"
+      },
+      "RESULTS": "Resultados da pesquisa ({{count}})",
+      "ERRORS": {
+        "COMPONENT": "Introduza o nome do alimento na caixa de texto acima",
+        "COMPONENT_VALUE": "PT_Component value must be a number"
+      }
+    },
+    "COMPARE": {
+      "BUTTON_TEXT": "Comparar ({{count}})",
+      "TITLE": "Comparar alimentos",
+      "ERRORS": {
+        "SELECT_FOODS_FIRST": "Por favor selecione um alimento ao clicar no (+) a seguir ao nome do alimento.",
+        "FOODS_NOT_FOUND_IN_DB": "PT_Some of the foods were not found in database"
+      }
+    },
+    "DETAILS": {
+      "RECIPE": {
+        "TITLE": "Lista de ingredientes",
+        "NAME": "Nome",
+        "AMOUNT": "Valor"
+      },
+      "DETAILS": {
+        "TITLE": "Alimento",
+        "NAME": "Nome",
+        "ID": "Id",
+        "CATEGORIES": "Categorias",
+        "CATEGORY": "Categoria",
+        "SUBCATEGORY": "SubCategoria",
+        "EDIBLE_PART": "Parte Edível",
+        "CODE": "Código",
+        "SCIENTIFIC_NAME": "Scientific name",
+        "FOODEX2": "Código FoodEx2"
+      },
+      "COMPONENTS": {
+        "TITLE": "Teor nutritivo por 100g"
+      },
+      "CHARTS": {
+        "COMPOSITION": "Composição",
+        "ENERGY": "Distribuição energética"
+      },
+      "LANGUAL": {
+        "TITLE": "LanguaL",
+        "CODE": "Código",
+        "TERM": "Descrição"
+      },
+      "GET_PDF": "PDF"
+    },
+    "PDF": {
+      "HEADER": "http://portfir.insa.pt",
+      "FOOTER": "Página @p@ de @tp@",
+      "FOOD": "Detalhe Alimento",
+      "COMPOSITION_CHART": "Composição",
+      "ENERGY_CHART": "Distribuição energética",
+      "COMPONENTS": "Teor nutritivo por 100g",
+      "INGREDIENTS": "Ingredients list",
+      "UNITS": {
+        "TITLE": "Unidades",
+        "CODE": "Código",
+        "NAME": "Nome"
+      }
+    }
+  },
+  "DIET": {
+    "RECIPE": {
+      "CREATE": "Create recipe",
+      "NAME": "Recipe name",
+      "GENERAL_PREPARATION_METHOD": "General preparation method(s)",
+      "FOODS": "Alimentos",
+      "INGREDIENTS": "Recipe ingredients"
+    },
+    "RECIPE_LIST": {
+      "ADD_INGREDIENTS": "Add ingredients to create recipe"
+    },
+    "COMPOSE": {
+      "ADD_MEAL": "Adicionar Refeição",
+      "CALCULATE_DIET": "Compor",
+      "CONSUMED_MEALS": "Refeições"
+    },
+    "OVERVIEW": {
+      "FOOD_LIST": "Refeições por Pessoa",
+      "TITLE": "Visão Geral da Dieta"
+    },
+    "EDIT_MEAL_MODAL": {
+      "ADD": {
+        "TITLE": "Add meal"
+      },
+      "EDIT": {
+        "TITLE": "EDITAR REFEIÇÃO"
+      },
+      "MEAL": {
+        "NAME": "Nome da Refeição",
+        "TIME": "Hora da Refeição",
+        "PORTIONS": "Refeição para quantas pessoas?",
+        "PORTIONS_NOTE": "A quantidade final de ingestão de nutrientes é calculada como uma média para 1 pessoa."
+      },
+      "ERRORS": {
+        "INVALID_PORTIONS_AMOUNT": "A meal should be consumed by at least one person",
+        "REQUIRED_FIELDS": "Por favor preencha todos os campos obrigatórios."
+      }
+    },
+    "MEAL_LIST": {
+      "PERSON": "pessoa(s)",
+      "CREATE_MEAL_FIRST": "To start adding consumed foods, first add a meal",
+      "ADD_INGREDIENTS": "Add a food item to the meal"
+    },
+    "INGREDIENT_LIST": {
+      "QUANTITY": "Quantity",
+      "UNIT": "Unit"
+    },
+    "ERRORS": {
+      "SELECT_A_MEAL_FIRST": "Please select a meal to which ingredient should be added",
+      "CANNOT_GENERATE_DIET": "Cannot generate diet, please check the composition amounts and units",
+      "MISSING_AMOUNT_OR_UNIT": "Some of the foods in diet are missing amount or unit"
+    },
+    "RECIPES": {
+      "NO_RECIPES": "Não consegue encontrar o prato que procura? <br> Tente criar uma receita personalizada",
+      "SAVED_AS_COOKIES": "As suas receitas são armazenadas apenas para si, em forma de “cookie”. Elas serão removidas assim que eliminar os cookies do seu browser."
+    },
+    "BUTTON": {
+      "ADD_RECIPE": "Adicionar Receita"
+    }
+  },
+  "GENERAL": {
+    "NAVIGATION": {
+      "BACK": "Voltar",
+      "CANCEL": "Cancelar",
+      "SAVE": "Guardar"
+    },
+    "INPUT": {
+      "NOT_FOUND": "Nenhum item encontrado",
+      "N_ITEMS_SELECTED": "{{count}} itens selecionados",
+      "FILTER": "Filtro",
+      "SELECT_ITEMS": "Seleciona itens",
+      "LOADING": "Carregando itens..."
+    },
+    "ERRORS": {
+      "SERVER_INTERNAL": "PT_Internal server error, please contact administrator"
+    }
+  },
+  "SHARED": {
+    "CHARTS": {
+      "OTHER_COMPONENTS": "outros",
+      "NO_VALUES": "Não aplicável"
+    },
+    "COMPONENTS_TABLE": {
+      "COMPONENT": "Nome",
+      "VALUE": "Valor",
+      "UNIT": "Unidade",
+      "EXPAND_ALL": "Expandir",
+      "COLLAPSE_ALL": "Colapso"
+    },
+    "SEARCH_RESULTS": {
+      "NO_RESULTS": "Não foram encontrados alimentos!",
+      "PERFORM_SEARCH_FIRST": "Introduza o nome do alimento na caixa de texto acima"
+    },
+    "ERRORS": {
+      "SOME_FOODS_NOT_FOUND_IN_DB": "Some of the foods were not found in DB",
+      "CONVERSION_NOT_PRESENT": "Conversion not present for units: {{ sourceUnit }} - {{ targetUnit }}",
+      "UNIT_NOT_EXISTING": "Unit does not exist: {{ unit }}"
+    }
+  },
+  "SELECT": {
+    "FOOD_CATEGORY": {
+      "SPOONABLE_DESSERTS_COOKED": "Sobremesas de colher com tratamento térmico",
+      "SPOONABLE_DESSERTS_NOT_OR_MINIMALLY_COOKED": "Sobremesas de colher sem tratamento térmico (ou mínimo)",
+      "PASTA_RICE_OR_SIMILAR_BASED_DISHES": "Pratos à base de massas ou arroz ou similares",
+      "SALADS": "Saladas",
+      "PIZZAS_AND_SIMILAR": "Pizzas e similares ",
+      "SOUPS": "Sopas ",
+      "SANDWICHES": "Sanduíches",
+      "POTATO_BASED_DISHES": "Pratos à base de batata",
+      "MEAT_BASED_DISHES": "Pratos à base de carne",
+      "LEGUME_BASED_DISHES": "Pratos à base de leguminosas",
+      "EGG_BASED_DISHES": "Pratos à base de ovo",
+      "BREAD_BASED_DISHES": "Pratos à base de pão ou similares",
+      "FISH_AND_OR_SHELFISH_BASED_DISHES": "Pratos à base de peixe e/ou marisco",
+      "MOLUSC_BASED_DISHES": "Pratos à base de moluscos",
+      "CAKES_COOKIES_TARTS_PIES": "Bolos, bolachas, tartes",
+      "OTHER": "outros"
+    },
+    "GENERAL_PREPARATION_METHOD":{
+      "COOKED_IN_STEAM": "Cozido no vapor",
+      "STEAMED_WITHOUT_PRESSURE": "Cozido no vapor sem pressão",
+      "COOKED_IN_WATER_OR_WATERBASED_LIQUID": "Estufado",
+      "STIRFRIED": "Frito",
+      "GRILLED": "Salteado",
+      "STEEPED": "Infusão",
+      "SAUTEED": "Grelhado",
+      "BRAISED": "Guisado",
+      "BAKED_OR_ROASTED": "Assado no forno",
+      "CORRESPONDS_TO_PREPARATION_METHOD_NOTHING_ADDED_IT'S_JUST_A_MIXTURE_OF_INGREDIENTS": "Misturado, com tratamento térmico nulo ou mínimo",
+      "BOILED_AND_UNDRAINED": "Cozido em água a ferver",
+      "BOILED_WITH_COOKING_LIQUID": "Cozido com o líquido dos próprios ingredientes",
+      "RAW": "Cru"
+    }
+  }
+}
