@@ -1,19 +1,5 @@
 {
-  "FOOD": {
-    "SEARCH": {
-      "DEFAULT": {
-        "TITLE": "Search",
-        "NAME": "Name or Id",
-        "CATEGORY": "Category",
-        "COMPONENT": "Component",
-        "OPERATOR": "Operator",
-        "VALUE": "Amount",
-        "DO_SEARCH": "Search",
-        "DO_CLEAR": "Clear"
-      },
-      "LANGUAL": {
-        "TITLE": "LanguaL"
-      }
-    }
+  "app": {
+    "name": "Your translation here"
   }
 }
